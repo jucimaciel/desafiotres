@@ -1,0 +1,31 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+  color: rgb(38, 46, 49);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 244px;
+    background-color: rgb(214, 171, 214);
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+.grid{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+
+}
+.celula{
+    text-align: center;
+    border-radius: 10px;
+    width: 70px;
+    height: 60px;
+    font-size: 20px;
+    margin: 3px;
+    padding-top: 10px ;
+    background-color: rgb(99, 99, 150);
+    font-weight: 300;
+}
